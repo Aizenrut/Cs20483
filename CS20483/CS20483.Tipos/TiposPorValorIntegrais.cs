@@ -11,7 +11,7 @@ namespace CS20483.Tipos
         public void Executa()
         {
             Console.WriteLine("Tipos por valor");
-            
+
             Console.WriteLine("Tipos Integrais:");
 
             char letra = 'a';

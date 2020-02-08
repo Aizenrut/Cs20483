@@ -15,9 +15,15 @@ namespace CS20483.ConsoleApp
             TiposVR tipos = new TiposVR();
             //tipos.Executa();
             TiposPorValorIntegral tp = new TiposPorValorIntegral();
-            tp.Executa();
+            //tp.Executa();
             TiposValorFlutuante tf = new TiposValorFlutuante();
             //tf.Executa();
+            Structs estruturas = new Structs();
+            //estruturas.Executa();
+            TipoReferencia tr = new TipoReferencia();
+            tr.Executa();
+            UsandoTipos ut = new UsandoTipos();
+            ut.Execute();
             Console.ReadKey();
         }
     }

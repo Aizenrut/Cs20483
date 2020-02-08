@@ -21,8 +21,8 @@ namespace CS20483.Tipos
             Console.WriteLine($"Valores inteiros: {numero1} e {numero2}");
             
             Console.WriteLine("Tipos por referência");
-            Pessoa pessoa1 = new Pessoa { Idade = 10, Nome = "Maykon" };
-            Pessoa pessoa2 = pessoa1;
+            Person pessoa1 = new Person { Idade = 10, Nome = "Maykon" };
+            Person pessoa2 = pessoa1;
             Console.WriteLine($"Pessoas: {pessoa1.Nome}-{pessoa1.Idade} --- {pessoa2.Nome}-{pessoa2.Idade}");
             pessoa1.Nome = "Joao";
             pessoa1.Idade = 20;
@@ -32,7 +32,7 @@ namespace CS20483.Tipos
 
         }
     }
-    public class Pessoa 
+    public class Person 
     {
         public string Nome { get; set; }
         public int Idade { get; set; }
