@@ -21,9 +21,16 @@ namespace CS20483.ConsoleApp
             Structs estruturas = new Structs();
             //estruturas.Executa();
             TipoReferencia tr = new TipoReferencia();
-            tr.Executa();
+            //tr.Executa();
             UsandoTipos ut = new UsandoTipos();
-            ut.Execute();
+            //ut.Execute();
+
+            UsandoTipos2 ot2 = new UsandoTipos2();
+            ot2.Executa();
+
+            Delegados delegado = new Delegados();
+            //delegado.Executa();
+
             Console.ReadKey();
         }
     }
