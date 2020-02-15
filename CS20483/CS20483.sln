@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS20483.Tipos", "CS20483.Ti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS20483.ConsoleApp", "CS20483.ConsoleApp\CS20483.ConsoleApp.csproj", "{F508A0B9-B059-4BEB-B651-DF8111055299}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS20483.Aula2", "CS20483.Aula2\CS20483.Aula2.csproj", "{755BB3FB-70BD-4903-8F83-0383A5B41347}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F508A0B9-B059-4BEB-B651-DF8111055299}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F508A0B9-B059-4BEB-B651-DF8111055299}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F508A0B9-B059-4BEB-B651-DF8111055299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{755BB3FB-70BD-4903-8F83-0383A5B41347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755BB3FB-70BD-4903-8F83-0383A5B41347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755BB3FB-70BD-4903-8F83-0383A5B41347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755BB3FB-70BD-4903-8F83-0383A5B41347}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
