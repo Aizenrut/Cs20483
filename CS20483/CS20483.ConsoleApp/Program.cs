@@ -1,4 +1,5 @@
-﻿using CS20483.Aula1.TiposPorValor;
+﻿
+using CS20483.Modulo1.Aula1.TiposPorValor;
 using CS20483.Tipos;
 using System;
 using System.Collections.Generic;
