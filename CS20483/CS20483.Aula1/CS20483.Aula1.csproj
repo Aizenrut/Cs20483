@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F508A0B9-B059-4BEB-B651-DF8111055299}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>CS20483.ConsoleApp</RootNamespace>
-    <AssemblyName>CS20483.ConsoleApp</AssemblyName>
+    <ProjectGuid>{7258FE51-1256-4308-8185-9B7BCB51EED4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CS20483.Aula1</RootNamespace>
+    <AssemblyName>CS20483.Aula1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,21 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CS20483.Aula1\CS20483.Aula1.csproj">
-      <Project>{7258fe51-1256-4308-8185-9b7bcb51eed4}</Project>
-      <Name>CS20483.Aula1</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CS20483.Tipos\CS20483.Tipos.csproj">
-      <Project>{002d5b44-332b-4348-9e6d-791ee19d39b6}</Project>
-      <Name>CS20483.Tipos</Name>
-    </ProjectReference>
+    <Compile Include="TiposPorValor\Booleanos.cs" />
+    <Compile Include="TiposPorValor\Enumeradores.cs" />
+    <Compile Include="TiposPorValor\Estruturas.cs" />
+    <Compile Include="TiposPorValor\NumerosInteiros.cs" />
+    <Compile Include="TiposPorValor\PontoFlutuante.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
