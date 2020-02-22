@@ -6,11 +6,11 @@ namespace CS20483.Aula2
 {
     class Pessoa
     {
+
         public static string cpf;
         public int Idade { get; set; }
         public string Nome { get; set; }
         public string Sobrenome { get; set; }
-
         public Pessoa()
         {
             //Console.WriteLine("Passando pelo construtor");
@@ -19,6 +19,8 @@ namespace CS20483.Aula2
         {
             this.Nome = nome;
         }
+
+       
         public string FormatarParaSalvar()
         {            
             string pessoaFormatada = $"{Idade};{Nome};{Sobrenome}";

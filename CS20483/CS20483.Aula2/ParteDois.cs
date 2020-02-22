@@ -29,9 +29,8 @@ namespace CS20483.Aula2
 
             //Metodos.Imprimir("Maykon");
             //Metodos.Imprimir(18);
-            pessoa1.Imprimir();
-            
-            
+            //pessoa1.Imprimir();
+
 
 
 
